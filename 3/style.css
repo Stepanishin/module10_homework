@@ -1,0 +1,38 @@
+.container {
+   box-sizing: border-box; 
+   margin: 50px 50px;
+   height: 300px;
+   width: 380px;
+}
+
+.container_form {
+    display: flex;
+    gap: 15px;
+   
+}
+
+.text_value {
+    border: 3px solid cadetblue;
+}
+.btn {
+    background-color: cadetblue;
+}
+
+.result {
+    display: flex;
+    border: 3px solid cadetblue;
+    height: 200px;
+    width: 380px;
+    margin-top: 15px;  
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+.result .recieved {
+    align-self: flex-start;
+}
+
+.result .sent {
+    color: cornflowerblue;
+    align-self: flex-end;
+}
